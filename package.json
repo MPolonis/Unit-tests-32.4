@@ -1,0 +1,27 @@
+{
+  "name": "Unit-tests-32.4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MPolonis/Unit-tests-32.4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MPolonis/Unit-tests-32.4/issues"
+  },
+  "homepage": "https://github.com/MPolonis/Unit-tests-32.4#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "onchange": "^6.0.0"
+  }
+}
